@@ -4,7 +4,7 @@ public class Consola implements Imprimible, Borrable{
     String pantalla="$virsh start bullseye";
     @Override
     public void imprime() {
-        System.out.printf("%s",pantalla.toUpperCase());
+        System.out.printf("%S",pantalla);
         System.out.println("");
     }
 
@@ -19,7 +19,7 @@ public class Consola implements Imprimible, Borrable{
     public void borrar() {
     pantalla.length();
     String asteriscos="";
-    for (int i=0; i<=pantalla.length();i++){
+    for (int i=1; i<=pantalla.length();i++){
         asteriscos="*";
         System.out.print(asteriscos);
     }

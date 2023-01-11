@@ -20,7 +20,7 @@ public class Impresora implements Imprimible, Borrable{
 
     @Override
     public void borrar() {
-        this.pagina=" ";
-        System.out.println("");
+        pagina="";
+        //System.out.println("");
     }
 }
